@@ -29,11 +29,8 @@ const HeroSection = () => {
 					/>
 				</h1>
 				<p className='text-[#ADB7BE] mb-6 textl-lg lg:text-xl'>
-					Hello, my name is Leonel. I graduated from the Soy Henry
-					coding bootcamp as a Full Stack Developer. I enjoy reading
-					and playing soccer. I became interested in the world of
-					development because I believe the learning curve is infinite
-					compared to other careers.
+					I am a full stack web developer with a passion for creating
+					interactive and responsive web appliactions.
 				</p>
 				<div>
 					<button className='bg-gradient-to-br from-blue-500 via-cyan-500 to-sky-500 hover:bg-slate-200 text-white px-6 py-3 rounded-full mr-4'>
