@@ -9,7 +9,7 @@ const HeroSection = () => {
 			<div className='col-span-7 place-self-center place-items-center grid lg:place-items-start'>
 				<h1 className='text-white max-w-2xl mb-4 lg:text-6xl text-4xl font-extrabold'>
 					<span className='text-transparent text-6xl bg-clip-text bg-gradient-to-r from-blue-400 to-cyan-600'>
-						Hello, I'm{" "}
+						Hello, I&apos;m{" "}
 					</span>{" "}
 					<br></br>
 					<TypeAnimation
@@ -30,7 +30,7 @@ const HeroSection = () => {
 				</h1>
 				<p className='text-[#ADB7BE] mb-6 textl-lg lg:text-xl'>
 					I am a full stack web developer with a passion for creating
-					interactive and responsive web appliactions.
+					interactive and responsive web applications.
 				</p>
 				<div>
 					<button className='bg-gradient-to-br from-blue-500 via-cyan-500 to-sky-500 hover:bg-slate-200 text-white px-6 py-3 rounded-full mr-4'>
