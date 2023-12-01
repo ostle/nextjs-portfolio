@@ -6,7 +6,10 @@ import Image from "next/image";
 
 const ContactSection = () => {
 	return (
-		<section className='mt-12 my-12 md:my-16 py-24 relative flex items-center justify-center'>
+		<section
+			id='contact'
+			className='mt-12 my-12 md:my-16 py-24 relative flex items-center justify-center'
+		>
 			<div className='absolute w-96 h-96 z-0 bg-[radial-gradient(ellipse_at_center,_var(--tw-gradient-stops))] from-cyan-900 to-transparent rounded-full blur-lg -top-6 left-1/2 transform -translate-x-1/2'></div>
 			<div className='z-10 text-center'>
 				<h5 className='text-2xl font-bold text-white my-4'>

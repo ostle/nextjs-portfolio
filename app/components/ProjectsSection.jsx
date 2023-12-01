@@ -17,7 +17,7 @@ const ProjectsSection = () => {
 	};
 
 	return (
-		<>
+		<section id='projects' className='mt-12 mb-12'>
 			<h2 className='text-center text-4xl font-bold text-white mt-4 mb-16 md:mb-12'>
 				My Projects
 			</h2>
@@ -48,7 +48,7 @@ const ProjectsSection = () => {
 					/>
 				))}
 			</div>
-		</>
+		</section>
 	);
 };
 
