@@ -1,7 +1,8 @@
 "use client";
-import React from "react";
+import React, { useState } from "react";
 import Image from "next/image";
 import { TypeAnimation } from "react-type-animation";
+import handleDownload from "../functions/handlePdfDownload";
 
 const HeroSection = () => {
 	return (
@@ -9,13 +10,11 @@ const HeroSection = () => {
 			<div className='col-span-7 place-self-center place-items-center grid lg:place-items-start'>
 				<h1 className='text-white max-w-2xl mb-4 lg:text-6xl text-4xl font-extrabold'>
 					<span className='text-transparent text-6xl bg-clip-text bg-gradient-to-r from-blue-400 to-cyan-600'>
-						Hello, I&apos;m{" "}
+						Hello, I&apos;m Leonel{" "}
 					</span>{" "}
 					<br></br>
 					<TypeAnimation
 						sequence={[
-							"Leonel",
-							1000,
 							"Full Stack Developer",
 							1000,
 							"Web Developer",
@@ -33,10 +32,18 @@ const HeroSection = () => {
 					interactive and responsive web applications.
 				</p>
 				<div>
-					<button className='bg-gradient-to-br from-blue-500 via-cyan-500 to-sky-500 hover:bg-slate-200 text-white px-6 py-3 rounded-full mr-4'>
+					<button
+						onClick={() =>
+							window.open("mailto:leoostrower@gmail.com")
+						}
+						className='bg-gradient-to-br from-blue-500 via-cyan-500 to-sky-500 hover:bg-slate-200 text-white px-6 py-3 rounded-full mr-4'
+					>
 						Hire Me
 					</button>
-					<button className='m-4 bg-gradient-to-br from-blue-500 via-cyan-500 to-sky-500 px-1 py-1 text-white rounded-full'>
+					<button
+						onClick={handleDownload}
+						className='m-4 bg-gradient-to-br from-blue-500 via-cyan-500 to-sky-500 px-1 py-1 text-white rounded-full'
+					>
 						<span className='block bg-[#121212] hover:bg-slate-800 rounded-full px-5 py-2'>
 							Download CV
 						</span>
